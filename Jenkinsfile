@@ -1,9 +1,6 @@
 pipeline {
     agent { label 'terraform' }
 
-     tools {
-        terraform 'terraform'
-    }
 
     stages {
         stage ("checkout from GIT") {
