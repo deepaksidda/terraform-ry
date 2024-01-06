@@ -1,11 +1,11 @@
 pipeline {
-    agent { label 'terraform' }
+    agent { label 'slave-1' }
 
    
     stages {
         stage ("checkout from GIT") {
             steps {
-                git branch: 'main', url: 'https://github.com/ryb9696/terraform.git'
+                git branch: 'main', url: 'https://github.com/deepaksidda/terraform-ry.git'
             }
         }
         stage ("terraform init") {
