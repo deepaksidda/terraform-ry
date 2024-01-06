@@ -1,9 +1,9 @@
 variable "access_key" {
-  default = "AKIAUA5Y4FO6GIE6NWPP"
+  default = "AKIAX6LQIW5ISRZBFULI"
 
 }
 variable "secret_key" {
-  default = "WYuIk4jfhxtr15Qctv5ApevIJwzV7Qa4Tqa4L1Tt"
+  default = "wARqpwXO7TNYnrpfgg6QyR4QasDA6q+Gsg75P3FW"
 
 }
 variable "region" {
@@ -11,7 +11,7 @@ variable "region" {
 
 }
 variable "ami" {
-  default = "ami-044099ba74ca59bb2"
+  default = "ami-03f4878755434977f"
 
 }
 variable "instance_type" {
@@ -19,6 +19,6 @@ variable "instance_type" {
 
 }
 variable "key_name" {
-  default = "nave"
+  default = "deepak"
 
 }
